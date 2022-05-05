@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>SignUpServlet</servlet-name>
+        <servlet-class>servlets.SignUpServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SignUpServlet</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>SignInPageServet</servlet-name>
+        <servlet-class>servlets.SignInPageServet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SignInPageServet</servlet-name>
+        <url-pattern>/signin</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>AuthPageServlet</servlet-name>
+        <servlet-class>servlets.AuthPageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AuthPageServlet</servlet-name>
+        <url-pattern>/auth</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>LogOutServlet</servlet-name>
+        <servlet-class>servlets.LogOutServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LogOutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>ProductsMenuPageServlet</servlet-name>
+        <servlet-class>servlets.ProductsMenuPageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ProductsMenuPageServlet</servlet-name>
+        <url-pattern>/menu</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>ItemDetailsPageServlet</servlet-name>
+        <servlet-class>servlets.ItemDetailsPageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ItemDetailsPageServlet</servlet-name>
+        <url-pattern>/item</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>SendOrderServlet</servlet-name>
+        <servlet-class>servlets.SendOrderServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SendOrderServlet</servlet-name>
+        <url-pattern>/order</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>OrdersPageServlet</servlet-name>
+        <servlet-class>servlets.OrdersPageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>OrdersPageServlet</servlet-name>
+        <url-pattern>/orders</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>AddNewProductServlet</servlet-name>
+        <servlet-class>servlets.AddNewProductServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddNewProductServlet</servlet-name>
+        <url-pattern>/newitem</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>DeleteProductServlet</servlet-name>
+        <servlet-class>servlets.DeleteProductServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteProductServlet</servlet-name>
+        <url-pattern>/delitem</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>ChatPageServlet</servlet-name>
+        <servlet-class>servlets.ChatPageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ChatPageServlet</servlet-name>
+        <url-pattern>/chat</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>SendChatMessageServlet</servlet-name>
+        <servlet-class>servlets.SendChatMessageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SendChatMessageServlet</servlet-name>
+        <url-pattern>/sendmessage</url-pattern>
+    </servlet-mapping>
+</web-app>
